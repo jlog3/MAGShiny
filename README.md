@@ -21,16 +21,7 @@ An R Shiny app for visualizing metagenome-assembled genome (MAG) quality metrics
 [Link to shinyapps.io demo, once deployed]
 
 ## Citation
-Inspired by: [MAGFlow/BIgMAG, 2024](#) (add journal DOI when available).
+Inspired by: MAGFlow/BIgMAG (2024). Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC11445639/
 
 ## License
 MIT License
-
-MAGShiny/
-├── app.R                # Main Shiny app code
-├── data/               # Sample data (e.g., sample_MAG_data.tsv)
-├── README.md           # Project documentation
-├── renv.lock           # Package versions
-├── .Rprofile           # renv auto-load
-├── renv/               # renv library
-└── .gitignore          # Git ignore file
