@@ -3,7 +3,7 @@
     "path": "~/Desktop/projects/MAGShiny/app.R",
     "project_path": "app.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "144479530",
     "contents": "",
     "dirty": false,
     "created": 1757130748029.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "134,1",
-        "scrollLine": "112"
+        "cursorPosition": "280,1",
+        "scrollLine": "241"
     },
     "folds": "",
-    "lastKnownWriteTime": 1757184311,
+    "lastKnownWriteTime": 1757538725,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1757184311273,
+    "last_content_update": 1757538725646,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -22,6 +22,8 @@ An R Shiny app for visualizing metagenome-assembled genome (MAG) quality metrics
 
 ## Citation
 Inspired by: MAGFlow/BIgMAG (2024). Available at: https://pmc.ncbi.nlm.nih.gov/articles/PMC11445639/
+Original MAGFlow Git Repo: https://github.com/jeffe107/MAGFlow
+Original BIgMAG Git Repo: https://github.com/jeffe107/BIgMAG
 
 ## License
 MIT License
