@@ -91,10 +91,10 @@ Ensure the MAGFlow pipeline is accessible (see jeffe107/MAGFlow).
 - Export results using the "Download Processed Data" button in the Raw Data tab.
 
 ### Example Data Format
-Sample_ID	| Taxonomy_Level	| Completeness	| Contamination	| CSS	| N50	| Complete_SCO
-|------------------|--------------------------------------------------|
-`Sample1`	| Bacteria	| 95.2	| 2.1	| 0.3	| 50000	| 90
-`Sample2`	| Archaea	| 80.5	| 5.0	| 0.5	| 30000	| 85
+| Sample_ID | Taxonomy_Level | Completeness | Contamination | CSS | N50   | Complete_SCO |
+|-----------|----------------|--------------|---------------|-----|-------|--------------|
+| Sample1   | Bacteria       | 95.2         | 2.1           | 0.3 | 50000 | 90           |
+| Sample2   | Archaea        | 80.5         | 5.0           | 0.5 | 30000 | 85           |
 
 ## Notes
 - **Cloud Execution**: Requires manual setup of a cloud backend for Nextflow. Refer to the [MAGFlow documentation](https://github.com/jeffe107/MAGFlow) for details.

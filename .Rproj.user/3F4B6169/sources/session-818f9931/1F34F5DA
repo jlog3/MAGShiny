@@ -3,7 +3,7 @@
     "path": "~/Desktop/projects/MAGShiny/README.md",
     "project_path": "README.md",
     "type": "markdown",
-    "hash": "2336663086",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1757540278300.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "96,51",
-        "scrollLine": "73"
+        "cursorPosition": "107,10",
+        "scrollLine": "75"
     },
     "folds": "",
-    "lastKnownWriteTime": 1757542282,
+    "lastKnownWriteTime": 1757542569,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1757542282455,
+    "last_content_update": 1757542569117,
     "read_only": false,
     "read_only_alternatives": []
 }
