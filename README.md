@@ -44,9 +44,9 @@
    ```
 
 3. Run the application:
-  ```R
-  shiny::runApp("app.R")
-  ```
+   ```R
+   shiny::runApp("app.R")
+   ```
 
 Optional: Set Up MAGFlow for Raw MAG AnalysisInstall Nextflow: Follow instructions at nextflow.io.
 Install Docker: Follow instructions at docker.com.
@@ -83,9 +83,7 @@ Ensure the MAGFlow pipeline is accessible (see jeffe107/MAGFlow).
 | `Contamination`  | MAG contamination percentage (from CheckM2)     |
 | `CSS`            | Contamination score from GUNC                   |
 | `N50`            | Assembly N50 statistic (from QUAST)             |
-| `Complete_SCO`   | Complete
-
- single-copy orthologs (from BUSCO)     |
+| `Complete_SCO`   | Complete single-copy orthologs (from BUSCO)     |
 
 ### Exploring Results
 - Navigate tabs (Summary, Scatterplots, Boxplots, Taxonomy Matrix, Cluster Heatmap, Raw Data) to explore results.
@@ -93,12 +91,10 @@ Ensure the MAGFlow pipeline is accessible (see jeffe107/MAGFlow).
 - Export results using the "Download Processed Data" button in the Raw Data tab.
 
 ### Example Data Format
-  ```tsv
-  Sample_ID	Taxonomy_Level	Completeness	Contamination	CSS	N50	Complete_SCO
-  Sample1	Bacteria	95.2	2.1	0.3	50000	90
-  Sample2	Archaea	80.5	5.0	0.5	30000	85
-  ...
-  ```
+Sample_ID	| Taxonomy_Level	| Completeness	| Contamination	| CSS	| N50	| Complete_SCO
+|------------------|--------------------------------------------------|
+`Sample1`	| Bacteria	| 95.2	| 2.1	| 0.3	| 50000	| 90
+`Sample2`	| Archaea	| 80.5	| 5.0	| 0.5	| 30000	| 85
 
 ## Notes
 - **Cloud Execution**: Requires manual setup of a cloud backend for Nextflow. Refer to the [MAGFlow documentation](https://github.com/jeffe107/MAGFlow) for details.
@@ -109,17 +105,17 @@ Ensure the MAGFlow pipeline is accessible (see jeffe107/MAGFlow).
 Contributions are welcome! To contribute:
 1. Fork the repository.
 2. Create a new branch:
-  ```bash
-  git checkout -b feature-name
-  ```
+   ```bash
+   git checkout -b feature-name
+   ```
 3. Commit your changes:
-  ```bash
-  git commit -m 'Add feature'
-  ```
+   ```bash
+   git commit -m 'Add feature'
+   ```
 4. Push to the branch:
-  ```bash
-  git push origin feature-name
-  ```
+   ```bash
+   git push origin feature-name
+   ```
 5. Submit a pull request.
 
 Please open an issue to report bugs or suggest improvements.
